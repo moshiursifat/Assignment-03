@@ -38,7 +38,7 @@
 <body class="font-manrope">
     <!-- header section -->
     <header class="w-4/5 m-auto">
-        <div class="flex justify-between mt-10 items-center">
+        <div class="flex justify-between mt-10 items-center sm:flex-1">
             <div>
                 <h1 class="text-4xl"><i class="fa-solid fa-arrow-right -rotate-45 bg-green-400 rounded-full p-1"></i> Rinterio</h1>
             </div>
@@ -75,7 +75,7 @@
                     <img class="ml-10" src="./assets/Vector.png" alt="">
                 </div>
         
-                <div class="flex w-4/5 m-auto space-x-4">
+                <div class="lg:flex w-4/5 m-auto space-x-4">
                     <div>
                         <div>
                             <h1 class="font-bold mb-4"><i class="fa-solid fa-arrow-right rounded-full p-1"></i> About us</h1>
@@ -122,8 +122,8 @@
                     <p>The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
                 </div>
     
-                <div class="flex space-x-4">
-                    <div class="border p-4 bg-pink-200 rounded-xl space-y-2">
+                <div class="space-x-4  sm:flex">
+                    <div class="border p-4 rounded-xl bg-pink-200 space-y-2">
                         <img src="./assets/concept.png" alt="">
                         <h3 class="text-xl font-bold">concept</h3>
                         <p>The barn captivates with its blend of rustic charm and modern</p>
@@ -149,15 +149,43 @@
 
         <!-- section-4 -->
         <section>
-            <div class="w-3/5 m-auto pt-16 pb-16">
+            <div class="w-4/5 m-auto pt-16 pb-16">
                 <div class="text-center space-y-4 mb-6">
                     <h6 class="font-bold mb-4 bg-green-100 w-1/5 m-auto rounded-xl"><i class="fa-solid fa-arrow-right rounded-full p-1"></i> Let’s Connect</h6>
                     <h1 class="text-5xl font-bold">Let’s Discuss Next Project</h1>
                     <p>The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
-                </div> 
+                </div>
 
-                <div>
-                    
+                <div class="lg:grid grid-cols-3 gap-3 mb-3">
+                    <div class="flex gap-x-4 border-2 border-gray-100 p-2 col-span-2 rounded-lg">
+                        <img class="" src="./assets/img1.png" alt="">
+                        <div>
+                            <h1 class="font-bold text-xl">Commercial</h1>
+                            <p>The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
+                            <p class="w-fit rounded-2xl p-2 font-bold">View Details <i class="fa-solid fa-arrow-right -rotate-45 bg-green-200 text-black rounded-full p-1"></i></p>
+                        </div>
+                    </div>
+                    <div class="border-2 border-gray-100 p-2 rounded-lg">
+                        <img  class="w-full h-full" src="./assets/img2.png" alt="">
+                    </div>
+                </div>
+                <div class="lg:grid grid-cols-4 space-x-3">
+                    <div class="border-2 border-gray-100 p-2 rounded-lg">
+                        <img class="w-full" src="./assets/img3.png" alt="">
+                    </div>
+                    <div class="flex  gap-x-4 border-2 border-gray-100 p-2 col-span-2 rounded-lg">
+                        <div>
+                            <img class="h-full" src="./assets/img4.png" alt="">
+                        </div>
+                        <div>
+                            <h1 class="font-bold text-xl">Commercial</h1>
+                            <p>The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
+                        <p class="w-fit rounded-2xl p-2 font-bold">View Details <i class="fa-solid fa-arrow-right -rotate-45 bg-green-200 text-black rounded-full p-1"></i></p>
+                        </div>
+                    </div>
+                    <div class="border-2 border-gray-100 p-2 rounded-lg">
+                        <img class="w-full" src="./assets/img5.png" alt="">
+                    </div>
                 </div>
         </section> 
 
@@ -171,7 +199,7 @@
                 </div> 
                 <!-- form -->
                 <div>
-                    <div class="grid grid-cols-2 gap-4">
+                    <div class="lg:grid grid-cols-2 gap-4">
                         <input class="p-3 rounded-full" type="text" placeholder="First Name*">
                         <input class="p-3 rounded-full" type="text" placeholder="Last Name*">
                         <input class="p-3 rounded-full" type="number" placeholder="Phone Number*">
